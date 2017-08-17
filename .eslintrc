@@ -3,7 +3,15 @@
     "jasmine"
   ],
   "env": {
-    "jasmine": true
+    "jasmine": true,
+    "es6": true
   },
-  "extends": ["plugin:jasmine/recommended"]
+  "extends": ["plugin:jasmine/recommended"],
+  "rules": {
+    "quotes": [1, "double"],
+    "semi": [1, "always"]
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
 }
